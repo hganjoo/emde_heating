@@ -381,7 +381,7 @@ def psaeq(m,trh,xi,a=aeq):
 
 
 # Bound fraction of freestreaming and lcdm PS in matter-domination: a = av/aeq  
-# this is av = a/a_eq
+
 def bfaeq(m,trh,xi,av=1.):
     
     k1,b1,p1,pc1 = psaeq(m,trh,xi,av*aeq)
